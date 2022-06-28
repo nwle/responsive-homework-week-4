@@ -1,0 +1,204 @@
+/*
+ * CSS style
+ */
+
+:root {
+  --global-color-darkest: #282828;
+  --global-color-darker: #2a2a2d;
+  --global-color-dark: #657070;
+  --global-color-accent: #de65b5;
+  --background-color-light: #f5f5f5;
+  --background-color-accent: #ffd6ee;
+}
+
+* {
+  line-height: 27px;
+  font-kerning: normal;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  color: var(-- global-color-darkest);
+  background-color: var(--background-color-light);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1em;
+  letter-spacing: -0.02em;
+}
+
+h1,
+h5 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2.827rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.618rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+
+  color: var(--global-color-accent);
+}
+
+h4 {
+  font-size: 0.79rem;
+  color: var(--global-color-dark);
+}
+
+p {
+  max-width: 544px;
+}
+
+hr.small {
+  min-height: 0.5em;
+  color: transparent;
+}
+
+.menu_,
+.header_ {
+  background-color: var(--background-color-accent);
+}
+
+.multiline_navbar {
+  display: grid;
+  display: block;
+  width: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+}
+
+.navbar-row {
+  display: flex;
+  width: 100%;
+  min-height: 80px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  border-bottom: 1.5px solid var(--global-color-darkest);
+}
+
+a.navbar_caption {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.999rem;
+  font-weight: 700;
+  line-height: 1em;
+  text-decoration: none;
+  color: var(--global-color-darkest) !important;
+}
+
+.icons_menu {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+}
+
+a.social_icon {
+  color: var(--global-color-darker);
+}
+
+a.nav-link {
+  font-weight: 600;
+  color: var(--global-color-darker) !important;
+}
+
+.header_ {
+  padding-top: 1.5em;
+}
+
+.header_title_container {
+  width: 55.333%;
+  padding: 1.5em 8.333%;
+}
+
+h3.section_pretitle {
+  margin-bottom: 2em;
+}
+
+.featured_image_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured_post_container,
+.main_container,
+.subscribe_container {
+  padding: 4.5em;
+}
+
+.featured_post_title {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.main_title_left_container {
+  display: flex;
+  margin-bottom: 27px;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.main_btn {
+  font-size: 1.125rem;
+  border: 1.5px solid var(--global-color-darkest);
+}
+
+.recent_post_title {
+  min-height: 55px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.subscribe_box {
+  padding: 1em 0 1.5em 3em;
+  background-color: var(--background-color-accent);
+}
+
+.subscribe_box_left {
+  position: relative;
+  bottom: -77.333px;
+}
+
+.subscribe_pretitle {
+  color: var(--global-color-darker);
+}
+
+.subscribe_title {
+  color: var(--global-color-darker);
+}
+
+.subscribe_btn {
+  font-size: 1.125rem;
+  color: var(--background-color-light);
+  border: 1.5px solid var(--global-color-darkest);
+  border-radius: 0 4px 4px 0;
+  background-color: var(--global-color-darkest);
+}
+
+.footer_container {
+  padding: 1em;
+  color: var(--background-color-light);
+  background-color: var(--global-color-darker);
+  justify-content: center;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: var(--background-color-accent);
+}
