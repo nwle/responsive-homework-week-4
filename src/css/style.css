@@ -240,3 +240,35 @@ a.recent_link {
 .icons_footer {
   display: none;
 }
+
+.contactus_container {
+  padding-top: 1.5em;
+  padding-bottom: 7.5em;
+  text-align: center;
+  background-color: var(--background-color-accent);
+}
+
+.contactus_p {
+  max-width: 644px !important;
+  margin: 0 auto;
+}
+
+.contactus_form {
+  display: flex;
+  padding-top: 2em;
+  justify-content: center !important;
+}
+
+.contactus_btn {
+  margin-top: 3em;
+  font-size: 1.125rem;
+  color: var(--background-color-light);
+  border: 1.5px solid var(--global-color-darkest);
+  border-radius: 4px;
+  background-color: var(--global-color-darkest);
+}
+
+.contactus_btn:hover {
+  color: var(--background-color-darkest);
+  background-color: var(--global-color-light);
+}
